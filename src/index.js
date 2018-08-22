@@ -5,5 +5,5 @@ import App from './App'
 import Login from './Login'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Login username={"admin"} password={"admin123"} />, document.getElementById('root'));
+ReactDOM.render(<Login username={"admin"} password={"admin"} />, document.getElementById('root'));
 registerServiceWorker();
